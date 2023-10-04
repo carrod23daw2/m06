@@ -1,0 +1,106 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    align-items: center;
+    text-align: center;
+    padding: 0.1%;
+    table-layout: fixed;
+
+    width: 60%;
+    max-height: 50%;
+
+    padding-top: 0px;
+
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 100%;
+}
+
+tr{
+    width: max-content;
+}
+
+
+td{
+    margin: 0px;
+    padding: 6px;
+    text-align: left;
+}
+
+th{
+    color: white;
+    background-color: black;
+    padding: 6px;
+    position: absolute;
+    width: calc(98% - 17px);
+}
+
+.tit{
+    font-weight: bold;
+}
+
+input{
+    border:none;
+    border-bottom: solid 3px;
+    border-color: blueviolet;
+
+    width: 97%;
+}
+
+input:focus-visible{
+    border:none;
+    border-bottom: solid 3px;
+}
+
+#div1{
+    padding: 2%;
+    width: 45%;
+}
+
+#div2{
+    margin-top: 5px;
+}
+
+button{
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 8px;
+
+    border: none;
+
+    width: 120px;
+    height: 30px;
+
+    background-color: rgb(85, 0, 169);
+    color: white;
+
+    transition-duration: 0.25s;
+
+    font-weight: bold;
+    width: 48%;
+}
+
+button:hover{
+    background-color: rgb(189, 189, 189);
+    border-color: black;
+    /*border-style: solid;*/
+    color: black;
+}
+
+button:focus{
+    background-color: red;
+}
+
+th p {
+    display: inline-block;
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Optional: Add styling for spacing between paragraphs */
+    margin-right: 10px; /* Adjust as needed */
+  }
